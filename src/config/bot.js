@@ -24,7 +24,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "CWC Bot 🔥",
         // Activity type number (0 = Playing).
         type: 0,
       },
@@ -59,9 +59,9 @@ export const botConfig = {
   applications: {
     // Default questions shown when someone fills out an application.
     defaultQuestions: [
-      { question: "What is your name?", required: true },
-      { question: "How old are you?", required: true },
-      { question: "Why do you want to join?", required: true },
+      { question: "Nickname Discord của bạn?", required: true },
+      { question: "Bạn Bao Nhiêu Tuổi?", required: true },
+      { question: "Và Tại Sao bạn muốn tham gia?", required: true },
     ],
 
     // Embed colors by application status.
@@ -292,7 +292,7 @@ export const botConfig = {
   // =========================
   verification: {
     // Message shown when posting the verification panel.
-    defaultMessage: "Click the button below to verify yourself and gain access to the server!",
+    defaultMessage: "Hãy nhấn vào nút xác thực ở phía dưới,để được thông qua vào server!",
 
     // Text on the verification button.
     defaultButtonText: "Verify",
@@ -362,11 +362,11 @@ export const botConfig = {
     // Welcome template posted when a user joins.
     // Placeholders: {user}, {server}, {memberCount}
     defaultWelcomeMessage:
-      "Welcome {user} to {server}! We now have {memberCount} members!",
+      "Chào Mừng {user} đến {server}! Hiện Server Còn {memberCount} members!",
     // Goodbye template posted when a user leaves.
     // Placeholders: {user}, {memberCount}
     defaultGoodbyeMessage:
-      "{user} has left the server. We now have {memberCount} members.",
+      "{user} Đã Rời đi,hiện server còn {memberCount} members.",
     // Channel ID for welcome messages.
     defaultWelcomeChannel: null,
     // Channel ID for goodbye messages.
